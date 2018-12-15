@@ -1,8 +1,8 @@
 # Lander
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/lander`. To experiment with that code, run `bin/console` for an interactive prompt.
+Coding challenges aren't just on whiteboards. Oftentimes, programmers will need to solve problems through a screen-sharing program like CoderPad or SpaceCraft. While it's easy to draw what your data structure should look like on a whiteboard, it's a tedious process to use `puts` to log your data structure to the console.
 
-TODO: Delete this and the text above, and describe your gem
+With Lander, it's easy to log your data structure to the console and gain a clearer sense of what's happening in your code. Just call the appropriate method in your program and your data structure will be displayed when you execute it.
 
 ## Installation
 
@@ -32,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/lander. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/spacecraft-repl/lander. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -40,4 +40,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Lander project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/lander/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Lander project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/spacecraft-repl/lander/blob/master/CODE_OF_CONDUCT.md).
