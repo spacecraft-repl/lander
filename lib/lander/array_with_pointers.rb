@@ -54,7 +54,7 @@ end
 # puts ShowArray([1,2,3,4], 1, 2)
 # puts ShowArray([1,2,3,4], 0, 2)
 # puts ShowArray([1,2,3,4], 1, 3)
-puts ShowArray([1,2,3,4], 2, 0)
-puts ShowArray([1,2,3,4], 3, 2)
-puts ShowArray([1,2,3,4], -1, -2)
+# puts ShowArray([1,2,3,4], 2, 0)
+# puts ShowArray([1,2,3,4], 3, 2)
+# puts ShowArray([1,2,3,4], -1, -2)
 
