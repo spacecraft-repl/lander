@@ -1,4 +1,4 @@
-# Lander
+![Lander](lander_logo_type.png)
 
 Coding challenges aren't just on whiteboards. Oftentimes, programmers will need to solve problems through a screen-sharing program like CoderPad or SpaceCraft. While it's easy to draw what your data structure should look like on a whiteboard, it's a tedious process to use `puts` to log your data structure to the console.
 
