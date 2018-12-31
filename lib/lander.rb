@@ -21,9 +21,3 @@ module Lander
 		displayTree(arr)
 	end
 end
-
-# Lander.show_array([1,2,3,4], 2, 3)
-# puts ""
-# Lander.show_linked_list([1,2,3,4])
-# puts ""
-# Lander.show_tree([1,2,3,4,5])
