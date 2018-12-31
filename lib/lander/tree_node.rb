@@ -56,6 +56,10 @@ def createTree(arr)
   root
 end
 
+def displayTree(arr)
+  createTree(arr).to_s
+end
+
 # puts TreeNode.createTree([1,2,3,4,5,6,7]).height # 3
 # puts TreeNode.createTree([1,2,3,4,5,6,7])
 # #       1

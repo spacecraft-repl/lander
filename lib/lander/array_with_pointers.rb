@@ -5,6 +5,7 @@ def ShowArray(array, left_pointer, right_pointer)
 	left = find_left_position(left_pointer)
 	right = find_right_position(array, right_pointer)
 
+	puts "Left is #{left_pointer}, Right is #{right_pointer}"
 	display_array(array, left, right, buffer)
 end
 
@@ -28,7 +29,6 @@ def find_right_position(array, right_pointer)
 end
 
 def display_array(array, left, right, buffer)
-	puts "Left is #{left}, right is #{right}"
 	if left == right 
 		puts "#{buffer}#{array}"
 		puts "#{buffer}#{' ' * left} ^"
@@ -44,17 +44,3 @@ def display_array(array, left, right, buffer)
 		puts "#{buffer}#{' ' * right} R" + "#{' ' * (left - right - 1)}L"
 	end
 end
-
-#   [1, 2, 3, 4]
-#    ^        ^
-#    L        R
-
-# puts ShowArray([1,2,3,4], 1, 1)
-# puts ShowArray([1,2,3,4], 0, 1)
-# puts ShowArray([1,2,3,4], 1, 2)
-# puts ShowArray([1,2,3,4], 0, 2)
-# puts ShowArray([1,2,3,4], 1, 3)
-# puts ShowArray([1,2,3,4], 2, 0)
-# puts ShowArray([1,2,3,4], 3, 2)
-# puts ShowArray([1,2,3,4], -1, -2)
-
