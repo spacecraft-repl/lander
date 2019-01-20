@@ -39,7 +39,9 @@ Left is 0, Right is 3
 
 To log linked lists, write `Lander.show_linked_list(array)` where array contains the node values of your linked list starting with the first node and ending with the last node. The logged linked list will end with a nil value. So `Lander.show_linked_list([1,2,3,4])` will log:
 
-`1 -> 2 -> 3 -> 4 ->`
+```ruby
+1 -> 2 -> 3 -> 4 ->
+```
 
 To log binary trees, write `Lander.show_tree(array)` where array contains the node values of the tree nodes. Note that the node values should be entered in this order:
 
