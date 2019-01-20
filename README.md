@@ -22,8 +22,39 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The three data structures that are currently supported by Lander are arrays with two pointers, singly linked lists, and binary trees. To use Lander and log these data structures, first require Lander in your code:
 
+```ruby
+require 'lander'    
+```
+
+To log arrays with two pointers, write `Lander.show_array(array, left_pointer, right_pointer)` where the `left_pointer` and `right_pointer` arguments are the array indexes you want the pointers to be placed. So `Lander.show_array([1,2,3,4], 0, 3)` will log:
+
+Left is 0, Right is 3
+  `[1, 2, 3, 4]`
+    ^        ^
+    L        R
+
+To log linked lists, write `Lander.show_linked_list(array)` where array contains the node values of your linked list starting with the first node and ending with the last node. The logged linked list will end with a nil value. So `Lander.show_linked_list([1,2,3,4])` will log:
+
+1 -> 2 -> 3 -> 4 ->
+
+To log binary trees, write `Lander.show_tree(array)` where array contains the node values of the tree nodes. Note that the node values should be entered in this order:
+
+```ruby
+[root_node,
+    second_level_left_node, second_level_right_node,
+        third_level_left_branch_left_node, third_level_left_branch_right_node,
+        third_level_right_branch_left_node, third_level_right_branch_right_node,
+            ....
+]
+```
+So an array argument of `[1, 2, 3, 4, 5, 6, 7]` will be logged liked so:
+
+      1
+    2  3
+   4 5 6 7
+   
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
