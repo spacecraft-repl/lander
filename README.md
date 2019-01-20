@@ -30,14 +30,16 @@ require 'lander'
 
 To log arrays with two pointers, write `Lander.show_array(array, left_pointer, right_pointer)` where the `left_pointer` and `right_pointer` arguments are the array indexes you want the pointers to be placed. So `Lander.show_array([1,2,3,4], 0, 3)` will log:
 
+```ruby
 Left is 0, Right is 3
-  `[1, 2, 3, 4]`
+   [1, 2, 3, 4]
     ^        ^
     L        R
+```
 
 To log linked lists, write `Lander.show_linked_list(array)` where array contains the node values of your linked list starting with the first node and ending with the last node. The logged linked list will end with a nil value. So `Lander.show_linked_list([1,2,3,4])` will log:
 
-1 -> 2 -> 3 -> 4 ->
+`1 -> 2 -> 3 -> 4 ->`
 
 To log binary trees, write `Lander.show_tree(array)` where array contains the node values of the tree nodes. Note that the node values should be entered in this order:
 
@@ -51,9 +53,11 @@ To log binary trees, write `Lander.show_tree(array)` where array contains the no
 ```
 So an array argument of `[1, 2, 3, 4, 5, 6, 7]` will be logged liked so:
 
+```ruby
       1
     2  3
    4 5 6 7
+```
    
 ## Development
 
